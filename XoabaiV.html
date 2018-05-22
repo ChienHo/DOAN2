@@ -1,0 +1,306 @@
+!!<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <!-- head thông báo phản hồi http -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Smart || Thế giới điện thoại di động</title>
+    <link rel="stylesheet" href="E:\ProjectCQ_html/css/bootstrap.min.css">
+    <script src="E:\ProjectCQ_html/js/jquery.min.js"></script>
+    <script src="E:\ProjectCQ_html/js/bootstrap.min.js"></script>
+    <script src="E:\ProjectCQ_html/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-control.right, .carousel-control.left {
+            background-image: none;
+            color: #f4511e;
+        }
+        .carousel-indicators li {
+            border-color: #f4511e;
+        }
+
+         .carousel-indicators li.active {
+                background-color: #f4511e;
+            }
+        /*==Reset CSS==*/
+        /*==Style cơ bản cho website==*/
+        body {
+            
+            font-family: sans-serif, Arial, tahoma;;
+            color: #333;
+        }
+        .a{
+            text-decoration: none;
+        }
+        .daik {
+            padding-top: 40px;
+            background-color: #fff;
+            background-position: top;
+        }
+
+        td {
+            line-height: 15px;
+        }
+
+        #vien {
+            margin-top:0px;
+            border: 1px solid #DDDDDD;
+        }
+
+        #tab {
+            padding: 2px 5px 0 5px;
+            border-bottom: 5px solid #FF4234;
+            font-size: 12px;
+        }
+
+            #tab a {
+                color: #494949;
+                font-weight: bold;
+            }
+
+            #tab tr, #tab td {
+                height: 25px;
+                padding-top: 4px;
+            }
+
+            #tab td {
+                padding-left: 5px;
+                padding-right: 5px;
+                text-align: center;
+            }
+
+            #tab .active {
+                border-top-left-radius: 15px;
+                background: #FF4234;
+            }
+
+                #tab .active a {
+                    color: #fff;
+                }
+
+        .time {
+            color: #0000ff;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        #mau4 {
+            color: #000;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+        }
+
+        #mau3 {
+            color: #FFF;
+        }
+
+        #mau2 {
+            background: #1C242F;
+            color: #FFF;
+        }
+
+        #mau1:hover {
+            background-color: #FF4234;
+            color: #FFF;
+        }
+
+        .mau1:hover {
+            background-color: #FF4234;
+            color: #FFF;
+        }
+
+        #top-text {
+            margin-top: 8px;
+        }
+
+        .jumbotron {
+            margin-bottom: 0;
+        }
+    </style> 
+</head>
+<body id="home">
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" style="min-height:50px ">
+                        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style=";padding-top: 5px;padding-bottom: 10px; background-color: black" >
+                            <div class="container-fluid">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-4" style="text-align: center;">
+                                        <a href="index.html" class="navbar-brand"><span style="font-size: 38px;color: white; margin-right: 5px;margin-left: 55px">CELLPHONE</span> <img style="margin-top: -20px" src="E:\ProjectCQ_html\IMG\Capture9.PNG" alt=""></a>
+                                    </div>
+                                   	<div class="col-sm-4">
+                                   		 <a class="navbar-brand" href="Admin.html" ><strong style="color: white">Quản trị | ADMIN</strong></a>
+                                   	</div>
+                                   	<div class="col-sm-4">
+					                     <ul class="nav navbar-nav navbar-center">
+					                        <li class="dropdown">
+					                            <a href="Admin.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="glyphicon glyphicon-user" style="color: white"></i> <strong style="color: white">CHÀO</strong> <font color="red"> Admin™</font></a>
+					                        </li>
+					                        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" style="color: white"></span> <strong style="color: white">Cart</strong></a></li>
+              							  </ul>
+                                   	</div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-sm-3 col-md-2 affix-sidebar" style="margin-top: 10px">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#toggleDemo0" data-parent="#sidenav01" class="collapsed">
+                                        <h4>
+                                            Control Panel
+                                        </h4>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="QLbaiViet.html"><span class="glyphicon glyphicon-file"></span>Quản lý bài viết</a>
+                                </li>
+                                <li><a href="QLTaiK.html"><span class="glyphicon glyphicon-user"></span> Quản lý khách hàng</a></li>
+                                <li><a href="QLTaiK.html"><span class="glyphicon glyphicon-lock"></span> Tài khoản</a></li>
+                                <li><a href="TinNhan.html"><span class="glyphicon glyphicon-envelope"></span> Tin nhắn <span class="badge pull-right">5</span></a></li>
+                                <li><a href="CaiDat.html"><span class="glyphicon glyphicon-cog"></span> Cài đặt</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-3 col-md-10 affix-sidebar" style="margin-top: 10px">
+                        <div class="sidebar-nav">
+                            <div class="navbar navbar-default" role="navigation">
+                                <div class="col-sm-3 col-md-1">
+                                    <img src="E:\ProjectCQ_html\IMG\images.jpg" style="width: 50px" />
+                                </div>
+                                <div class="col-sm-3 col-md-9">
+                                    <h3>Chức năng xóa bài viết</h3>
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <td id="mau4"><b>TT</b></td>
+                                            <td id="mau4"><b>Ảnh bài viết</b></td>
+                                            <td id="mau4"><b>Tiêu đề bài biết</b></td>
+                                            <td id="mau4"><b>Nội dung bài viết</b></td>
+                                            <td id="mau4"><b>Người viết</b></td>
+                                            <td id="mau4"><b>Xóa bài viết</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                 <img src="E:\ProjectCQ_html\IMG\01_s7_edge_front_blue_standard_online_l.png" width="150" height="150" alt="">
+                                            </td>
+                                            <td>
+                                                <textarea rows="5" cols="20"></textarea><br /> 
+                                            </td>
+                                            <td>
+                                               <textarea rows="5" cols="20"></textarea><br /> 
+                                            </td>
+                                            <td>
+                                                Admin
+                                            </td>
+                                            <td>
+                                                <a href="#">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <td align="left"><button type="button" id="mau1" class="btn btn-default">Xóa</button></td>
+                                            <td align="right"><button type="button" id="mau1" class="btn btn-default">Cane</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <div class="co-sm-12" style="margin-top:0px">
+                        <div class="col-sm-4">
+                            <div style="background-color: silver; height: 40px;text-align:center;padding-top: 1px;margin-right: -27px; border-top-left-radius: 10px;border-bottom-left-radius: 10px">
+                                <p><h4>Thông Tin Liên Lạc</h4></p>
+                            </div>
+                            <ul>
+                                <li>Tư vấn khách hàng: <b>1900.6480</b><i>(1000đ/phút)</i></li>
+                                <li>Khuyến mại, góp ý:<b>08.7106.6123</b> </li>
+                                <li>Bảo hành-Sửa chữa:<b>1900.6930</b></li>
+                                <li>thời gian phục vụ: 8h30 -21h30</li>
+                                <li>Email: cskh@cellphone.com.vn</li>
+                                <ul>
+                                    <li>2015-2016 cellphones.com.vn - All Rights Reserved</li>
+                                    <li>Giấy phép kinh doanh / Mã số thuế: 0105313144</li>
+                                    <li>Giấy phép thiết lập Trang thông tin điện tử tổng hợp do Sở thông tin và Truyền thông cấp</li>
+                                </ul>
+                            </ul>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14905.886966538359!2d106.316948!3d20.93356245!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1490839672484" width="320" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-4">
+                            <div style="background-color: silver; height: 40px;text-align:center;padding-top: 1px;margin-right: -27px">
+                                <p><h4>Thông tin hỗ trợ</h4></p>
+                            </div>
+                            <table border="0" cellpadding="0px" cellspacing="0px" style="padding-left: 20px; font-size: 13px">
+                                <tr>
+                                    <td align="left" valign="top" width="100px">
+
+                                        <p>Giới thiệu</p>
+                                        <p>Smember</p>
+                                        <p>Bảo hành</p>
+                                        <p>Mua hàng từ xa</p>
+                                        <p>Tuyển dụng</p>
+
+                                    </td>
+                                    <td valign="top" align="left" width="220px">
+                                        <ul>
+                                            <p>Bán hàng Doanh Nghiệp</p>
+                                            <p>Kiểm tra bảo hành - sửa chữa</p>
+                                            <p>Kiểm tra thời hạn bảo hành</p>
+                                            <p>Xem video đánh giá</p>
+                                            <p>Chính sách bảo mật</p>
+                                            <p>Điều khoản sử dụng</p>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-sm-4">
+                            <div style="background-color: silver; height: 40px;text-align:center;padding-top: 1px; border-top-right-radius: 10px;border-bottom-right-radius: 10px">
+                                <p><h4>Hệ thống cửa hàng</h4></p>
+                            </div>
+                            <ul>
+                                <li>543 Nguyễn Trãi, P.Thanh Xuân Nam, Q. Thanh Xuân <i>ĐT: 047.1085.543</i> </li>
+                                <li>160 Nguyễn Khánh Toàn, P. Quan Hoa, Q. Cầu Giấy <i>ĐT: 047.1061.160</i></li>
+                                <li>524 Bạch Mai,P.Trương Định,Q. Hai Bà Trưng <i>ĐT: 047.1066.524</i></li>
+                                <li>365 Nguyễn Văn Cừ, P. Ngọc Lâm, Q. Long Biên <i>ĐT: 047.1066.365</i></li>
+                                <li>306 Cầu Giấy, P. Dịch Vọng, Q. Cầu Giấy <i>ĐT: 047.1066.306</i></li>
+                                <li>21A Hàng Bài, P. Hàng Bài, Q. Hoàn Kiếm <i>ĐT: 047.106.2121</i></li>
+                                <li>19 Thái Hà, P. Trung Liệt, Q. Đống Đa <i>ĐT: 1900.6480</i></li>
+                                <li>117 Thái Hà, P. Trung Liệt, Q. Đống Đa <i>ĐT: 047.1066.117</i></li>
+                                <p>Giờ mở cửa: 8h30 - 21h30 tất cả cá ngày trong tuần.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
